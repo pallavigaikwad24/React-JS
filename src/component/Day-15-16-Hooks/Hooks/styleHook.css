@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainRef {
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+}
+
+#inputFocus {
+    width: 60%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 50px;
+    border: 2px solid rgb(196, 196, 196);
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inputFocus:focus {
+    border: 2px solid rgba(255, 30, 30, 0.664);
+    box-shadow: 5px 5px 10px 1px rgb(248, 104, 104);
+}

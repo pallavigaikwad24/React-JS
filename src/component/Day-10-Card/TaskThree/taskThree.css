@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#card {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.filter-div{
+    background-color: rgb(201, 229, 230);
+}
+.bg-info{
+    padding: 7px;
+}
+
+.form-control{
+    width: 60%;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+#filter {
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+#radiobtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 4px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px 0 10px 10px;
+}

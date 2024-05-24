@@ -1,0 +1,9 @@
+#login {
+    width: 30%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+}

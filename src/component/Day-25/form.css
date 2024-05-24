@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form-section{
+    width: 37%;
+    margin: 50px auto;
+    padding: 40px;
+    border: 1px solid black;
+   
+}
+
+.input-field{
+    display: block;
+    width: 90% !important;
+    margin: 10px 10px 20px 10px;
+    border: 2px solid rgb(201, 198, 198);
+    border-radius: 5px;
+}
+
+.label{
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.select-field{
+    width: 17px;
+    margin-top: 10px;
+    height: 17px;
+    margin-bottom: 10px;
+}
+
+.dob-field{
+    width: 150px;
+    border: 2px solid rgb(196, 194, 194);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.file-field{
+    border: none;
+    outline: none;
+    margin: 15px 10px 10px 6px;
+    font-size: 15px;
+}
+
+#btn-submit{
+    padding: 8px;
+    border-radius: 15px;
+    margin: 10px 0 10px 150px;
+}
+
+#error{
+    color:red;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#pass{
+    position: absolute;
+    top: 375px;
+    right: 520px;
+   
+}
+
+#container{
+    position: relative;
+}
+
+.error-container{
+    position: absolute;
+    text-align: center;
+    margin-top: -2px !important;
+    margin-left: 50px;
+}
+
+#passConf{
+    position: absolute;
+    top: 495px;
+    right: 520px;
+}
+

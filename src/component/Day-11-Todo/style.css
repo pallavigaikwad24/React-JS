@@ -1,0 +1,55 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #main {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid white;
+        margin: 50px auto;
+    }
+    
+    #task {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #task input {
+        margin-right: 10px;
+        border: 1px solid black;
+    }
+    
+    .btn {
+        padding: 7px;
+        margin-left: 10px;
+        background-color: rgb(134, 134, 238);
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+    #completed{
+        border: 1px solid green;
+        margin-left: 50px;
+        margin-right: 40px;
+        text-align: center;
+        padding: 7px;
+        background-color: rgb(70, 243, 70);
+        border-radius: 15px;
+        color: rgba(255, 0, 0, 0.692);
+    }
+    
+    #options {
+        width: 100px;
+    }
+    
+    ul {
+        text-align: left;
+        margin-left: 25px;
+        line-height: 40px;
+        
+    }
